@@ -3,7 +3,7 @@ import telegram
 from telegram.ext import Updater, MessageHandler, Filters , CommandHandler
 import openai
 import Responses as rp
-#import const as cs
+import const as cs
 #from os import getenv, system
 #from dotenv import load_dotenv
 from time import sleep
