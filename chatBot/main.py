@@ -42,7 +42,7 @@ def main():
     # Start the bot
     updater.start_polling()
     sleep(1)
-    print("Done ...\tap @derradjichatbot in telegram search-bar\BOT is running ....")
+    print(f"Done ...\ntap @derradjichatbot in telegram search-bar\n{sleep(1)}BOT is running ....")
     updater.idle()
 
 main()
