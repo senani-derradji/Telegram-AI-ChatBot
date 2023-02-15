@@ -24,10 +24,37 @@ if you want to put your personal bot and openai_api_key and run the bot directly
 > delete the # from #openai.api_key = cs.openai_api_token()
 ```
 #
-# Some Explain
+# Explain
 ```bash
 you will see some modules like dotenv and functions like getenv()
 the target from this module and this function is the privacy when you want to publish your key's
 like openai-api-key with your project you need to secure it by create .env file and use the function getenv("api-key")
+and module speedtest you can by it make a condition if (internet_speed < 2MB) => don't run the bot
 that's it , i hope you like my project , thank you ^_^
+```
+#
+# How to create Your own OpenAI API
+```go
+> go to : https://openai.com/api
+> Signup new Account
+> while you have account , you go to : https://platform.openai.com/account/api-keys
+> create new secret api
+========= if you want to put it tn this project =========
+> go to : chatBot/const.py [ openai_api_key() ]
+```
+#
+# How to Create a Telegram own Bot and get The Bot Token
+```ruby
+> open Telegram App
+> Search on @botfather
+> /start
+> /newbot
+> Choose a Bot Name
+> Choose a Bot UserName like : Bot_yourname
+> /setuserpic
+> Choose The picture and send it to the @fatherbot
+> /token
+> and you will get the bot token copy it
+========= if you want to put it tn this project =========
+> go to : chatBot/const.py [ telegram_bot_api_token() ]
 ```
