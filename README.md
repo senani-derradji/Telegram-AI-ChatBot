@@ -11,7 +11,7 @@
 > pip install --upgrade pip setuptools wheel
 > git clone https://github.com/u0a254/Telegram-AI-ChatBot
 > cd Telegram-AI-ChatBot
-> python setup.py
+> python3 setup.py
 ```
 #
 # Using and Create
