@@ -14,16 +14,20 @@ from time import sleep
 #load_dotenv()#
 ###############
 
-
+####################################################
+''' Derradji Bot '''
 #print ("put here your the telegram API Token")
 #telegram_api_token_bot = str(input("╰─>"))
-#print ("put here your the OpenAI API Token")
-#openai_api_token = str(input("╰─>"))
+print ("put here your the OpenAI API Token")
+openai_api_key = str(input("╰─>"))
+####################################################
 
 
+#####################################################
+''' Personal Bot '''
 telegram_api_token_bot = cs.telegram_bot_token()
-openai.api_key = cs.openai_api_token()
-
+#openai.api_key = cs.openai_api_key()
+######################################################
 
 sleep(1)
 # Set up the Telegram bot using the python-telegram-bot library
